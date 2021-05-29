@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+     script(src='/static/index.js') 
+
+block style 
+    style
+      include ../static/style.css
+block content
+
+    section#introSection
+        div Welcome to Jayant's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance2.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dancelogo.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance3.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsersSection
+        h2 Our Sponsers 
+        div#sponsors
+            img(src="/static/img2/logo1.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img2/logo2.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img2/logo3.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img2/logo4.png",alt="Sponser Image",class="spImage")

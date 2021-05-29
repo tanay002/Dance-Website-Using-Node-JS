@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Jayant Dance Academy
+    block scripts
+    block style 
+      script(src='/jquery.js')
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="https://images.vexels.com/media/users/3/146559/isolated/preview/dbc950f2acb8f1385d7e42c24232d2f9-street-dance-splash-paint-silhouette-by-vexels.png")
+                | JDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer
+        | Copyright © 2021 Jayant Dance Academy | All Rights Reserved
